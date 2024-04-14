@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:wght@400;500&display=swap");
+
+:root {
+  --primary-color: #26dcaf;
+  --bg-light: #171717;
+  --text-light: rgb(226, 223, 223);
+  --text-fig: #636363cc;
+  --extra-light: #f9f9f9;
+  --max-width: 1000px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  text-align: center;
+  color: var(--text-light);
+}
+
+#main {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 4rem 1rem;
+}
+
+#img-div {
+  background-color: var(--extra-light);
+  padding: 35px;
+}
+
+#img-caption {
+  color: var(--text-fig);
+  margin-top: 10px;
+  width: 600px;
+  display: inline-block;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 3em;
+  color: var(--primary-color);
+}
+
+hr {
+  margin: 20px;
+  width: 300px;
+  display: inline-block;
+}
+
+h2 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#main p {
+  margin-top: 20px;
+}
+
+#tribute-info p {
+  margin-top: 10px;
+}
+
+ul {
+  text-align: left;
+  line-height: 2em;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+#tribute-info ul {
+  list-style: none;
+}
+
+#tribute-info li {
+  position: relative;
+  margin-bottom: 2rem;
+  color: var(--white);
+}
+
+span {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--extra-light);
+}
+
+.footer p {
+  margin-bottom: 30px;
+}
+
+@media (width < 1400px) {
+  ul {
+    text-align: left;
+    line-height: 1.6em;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    display: inline;
+  }
+}
+
+@media (width < 768px) {
+  #main {
+    max-width: 700px;
+    margin: auto;
+    padding: 4rem 1rem;
+  }
+
+  #img-div {
+    padding: 20px;
+  }
+
+  #img-caption {
+    color: var(--text-fig);
+    width: 600px;
+    display: inline;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  #title {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-family: "EB Garamond", serif;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    text-align: left;
+    line-height: 1.6em;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    display: inline;
+  }
+
+  #tribute-info p,
+  #tribute-info a {
+    font-size: 14px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+}
