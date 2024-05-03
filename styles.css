@@ -6,7 +6,7 @@
   --text-light: rgb(226, 223, 223);
   --text-fig: #636363cc;
   --extra-light: #f9f9f9;
-  --max-width: 1000px;
+  --max-width: 100%;
 }
 
 * {
@@ -79,7 +79,7 @@ h2 {
 ul {
   text-align: left;
   line-height: 2em;
-  width: 600px;
+  width: 100%;
   margin: 0 auto;
   font-size: 14px;
   display: flex;
