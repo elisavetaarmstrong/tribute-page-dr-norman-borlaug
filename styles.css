@@ -35,16 +35,19 @@ body {
 
 #img-caption {
   color: var(--text-fig);
-  margin-top: 10px;
+  padding-top: 30px;
   width: 600px;
-  display: inline-block;
+  display: block;
   text-align: center;
+  margin: 0 auto;
 }
 
 #image {
   max-width: 100%;
   height: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0 auto;
 }
 
 #title {
